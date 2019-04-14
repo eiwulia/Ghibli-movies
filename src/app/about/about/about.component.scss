@@ -1,0 +1,66 @@
+@import '../../shared/variables';
+// The scss for the webb starts here
+
+img:hover{
+  transform:scale(1.4);
+  transition: 0.6s;
+
+}
+.wrapper {
+  //background-image: url("https://static.boredpanda.com/blog/wp-content/uploads/2016/06/download-free-studio-ghibli-wallpapers-miyazaki-anime-44-57615b19e20b0__880.jpg");
+  padding: 20px;
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position:   center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.contanier{
+  margin: auto;
+
+}
+
+p {
+
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: $color-black;
+}
+
+main div > img {
+  width: 145px;
+  border-radius: 100%;
+  height: 150px;
+}
+
+.linkHolder a > .gMail {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 7px;
+  margin-left: 13px;
+}
+
+.linkHolder a > img {
+  width: 65px;
+  height: 65px;
+}
+
+
+
+@media (max-width:1099px){
+
+.wrapper{
+display: inline-block;
+width: 100%;
+
+}
+.contanier{
+  margin-top: 50px;
+}
+
+}

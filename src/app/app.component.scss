@@ -1,0 +1,5 @@
+@import './shared/variables';
+
+/deep/ router-outlet ~ * {
+  display: block;
+}

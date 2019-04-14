@@ -1,0 +1,141 @@
+@import '../../shared/variables';
+
+img{
+  border-radius: 5px 5px;
+}
+
+h1{
+  color: $color-red;
+}
+
+#container{
+  width: 100%;
+  margin:auto;
+  justify-content: center;
+//  background-image: url("https://static.boredpanda.com/blog/wp-content/uploads/2016/06/download-free-studio-ghibli-wallpapers-miyazaki-anime-44-57615b19e20b0__880.jpg");
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+.items{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin: 40px;
+}
+
+.items:hover {
+  transition: 1s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.carousel{
+  height: 480px;
+
+}
+
+
+#left:hover{
+  transition: 0.3s;
+  transform: scale(1.7);
+
+}
+#right:hover{
+  transition: 0.3s;
+  transform: scale(1.7);
+}
+
+
+.info{
+  font-size: 120%;
+  height: 300px;
+  padding: 0;
+  background-color: $color-white;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-table;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.infoText{
+margin: 20px;
+}
+.callToArms{
+  margin: 30px;
+  color: $color-white;
+  border-radius: 5px 5px;
+  padding: 20px;
+  max-width: 200px;
+  font-size: 18px;
+  background-color: $color-red;
+}
+
+.callToArms:hover{
+  cursor: pointer;
+  background-color: $color-light-red;
+}
+.bigDaydyPicWrapper{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.picWraper{
+  display: inline-grid;
+  justify-content: center;
+  margin: 40px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.picWraper:hover{
+  transition: 1s;
+  transform: scale(1.1);
+    h3 {
+    font-weight: bold;
+
+    }
+}
+
+
+
+.picWraper > img{
+  height: 350px;
+  width: 250px;
+}
+
+.imgaeText{
+text-align: center;
+}
+
+@media(max-width: 1000px){
+
+
+.carousel{
+  height: 400px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  // width: 277px;
+}
+
+
+#left:hover{
+  transform: scale(.8);
+
+}
+
+#right:hover{
+transform: scale(.8);
+}
+
+.picWraper {
+margin: 30px;
+margin-bottom: 10px;
+}
+
+}

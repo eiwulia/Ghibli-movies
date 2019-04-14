@@ -1,0 +1,23 @@
+<header>
+  <a routerLink="/home" routerLinkActive="active" (click)="toggleOff()"><img class="logo" [src]="logo" alt="kitten" /></a>
+
+  <a routerLink="/home" routerLinkActive="active" (click)="toggleOff()"><h1>Rate my Ghibli</h1></a>
+
+  <div class="hamburger__container" (click)="hamburger()" [ngClass]="{'active': toggle}">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+
+  <div class="hamburger__meny" [ngClass]="{'hamburger__active': toggle }">
+    <ul>
+      <li> <a routerLink="/home" routerLinkActive="active" (click)="toggleOff()">Home</a></li>
+      <li> <a routerLink="/review" routerLinkActive="active" (click)="toggleOff()">Review</a></li>
+      <li> <a routerLink="/rating" routerLinkActive="active" (click)="toggleOff()">Rating</a></li>
+      <li> <a routerLink="/topList" routerLinkActive="active" (click)="toggleOff()">Toplist</a></li>
+      <li> <a routerLink="/about" routerLinkActive="active" (click)="toggleOff()">About</a></li>
+    </ul>
+  </div>
+
+</header>

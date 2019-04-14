@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: '404', component: ForofourComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '/404', pathMatch: 'full' }
+  { path: '**', redirectTo: '/404'/*, pathMatch: 'full'*/ }
 ];
 
 

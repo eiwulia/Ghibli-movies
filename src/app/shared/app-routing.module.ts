@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: 'rating', component: RateComponent },
   { path: 'topList', component: ToplistComponent },
   { path: 'about', component: AboutComponent },
-  { path: '', redirectTo: 'home'/*, pathMatch: 'full'*/ },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '404', component: ForofourComponent },
   { path: '**', redirectTo: '404' /*, pathMatch: 'full' */}
 ];
